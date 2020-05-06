@@ -1,3 +1,6 @@
+### This fork has the following fixes: 
+-  xAxis rotated label size fix: Charts was calculating the right size for the wrong longest label. getLongestLabel counts the number of chars of a string but there are characters bigger than other depending on the font we use. 
+
 **Version 3.5.0**, synced to [MPAndroidChart #f6a398b](https://github.com/PhilJay/MPAndroidChart/commit/f6a398b)
 
 ![alt tag](https://raw.github.com/danielgindi/Charts/master/Assets/feature_graphic.png)
